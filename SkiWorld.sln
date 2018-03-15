@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiWorld", "SkiWorld\SkiWorld.csproj", "{B879AE57-26BD-4394-854E-CE185A73645B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiWorld.Data", "SkiWorld.Data\SkiWorld.Data.csproj", "{8134DE23-0DC4-486C-A8F9-F0CA0151F363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiWorld.Domain", "SkiWorld.Domain\SkiWorld.Domain.csproj", "{A3EF951A-BD2B-44D6-8CE0-C1A915DC802F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiWorld.Service", "SkiWorld.Services\SkiWorld.Service.csproj", "{D7AFE3D1-6725-497D-B1CB-CD678E01CC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePattern", "ServicePattern\ServicePattern.csproj", "{EECCDCE6-95EA-40EF-891C-38189F49C607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiWorld.MVC", "SkiWorld.MVC\SkiWorld.MVC.csproj", "{D5D9E56A-2848-4BA0-A7C9-1EB9B13BC968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B879AE57-26BD-4394-854E-CE185A73645B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B879AE57-26BD-4394-854E-CE185A73645B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B879AE57-26BD-4394-854E-CE185A73645B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B879AE57-26BD-4394-854E-CE185A73645B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8134DE23-0DC4-486C-A8F9-F0CA0151F363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8134DE23-0DC4-486C-A8F9-F0CA0151F363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8134DE23-0DC4-486C-A8F9-F0CA0151F363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8134DE23-0DC4-486C-A8F9-F0CA0151F363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EF951A-BD2B-44D6-8CE0-C1A915DC802F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EF951A-BD2B-44D6-8CE0-C1A915DC802F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EF951A-BD2B-44D6-8CE0-C1A915DC802F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EF951A-BD2B-44D6-8CE0-C1A915DC802F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AFE3D1-6725-497D-B1CB-CD678E01CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AFE3D1-6725-497D-B1CB-CD678E01CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AFE3D1-6725-497D-B1CB-CD678E01CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AFE3D1-6725-497D-B1CB-CD678E01CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECCDCE6-95EA-40EF-891C-38189F49C607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECCDCE6-95EA-40EF-891C-38189F49C607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECCDCE6-95EA-40EF-891C-38189F49C607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECCDCE6-95EA-40EF-891C-38189F49C607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D9E56A-2848-4BA0-A7C9-1EB9B13BC968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D9E56A-2848-4BA0-A7C9-1EB9B13BC968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D9E56A-2848-4BA0-A7C9-1EB9B13BC968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D9E56A-2848-4BA0-A7C9-1EB9B13BC968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

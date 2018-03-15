@@ -1,0 +1,32 @@
+﻿@model IEnumerable<SkiWorld.Data.Models.opportunity>
+
+@{
+    ViewBag.Title = "ListOPp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListOPp</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.description)
+        </td>
+        <td>
+            @Html.ActionLink("Postuler", "Home", "Home") 
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,296 @@
+﻿@model SkiWorld.Data.Models.Worker
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Worker</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailConfirmed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailConfirmed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PasswordHash)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PasswordHash)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SecurityStamp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecurityStamp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumberConfirmed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumberConfirmed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TwoFactorEnabled)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TwoFactorEnabled)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LockoutEndDateUtc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LockoutEndDateUtc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LockoutEnabled)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LockoutEnabled)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccessFailedCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccessFailedCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.experienceRes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.experienceRes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.profilePicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.profilePicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VIP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VIP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.creditCardNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.creditCardNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numberVisits)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numberVisits)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.registrationNumbe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.registrationNumbe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.experiencePlayer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.experiencePlayer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.experienceEvent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.experienceEvent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.registrationNumberEvent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.registrationNumberEvent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.experienceIns)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.experienceIns)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.evenement_idEvent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.evenement_idEvent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExperienceWorker)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExperienceWorker)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Speciality)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Speciality)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistrationNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistrationNumber)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
